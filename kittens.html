@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<title>Kittens</title>
+<style media="screen">
+  body {font-family: sans-serif;text-align: center}
+  h1 {font-size: 8vmax}
+  p {font-size: 10vmin}
+  body {
+    background: url(https://www.pets4homes.co.uk/images/articles/1646/large/kitten-emergencies-signs-to-look-out-for-537479947ec1c.jpg) 50% 50%;
+  }
+</style>
+<body>
+<h1>Kittens are GREAT!!!</h1>
+
+<img class="magical-kittens" src="https://media.giphy.com/media/XQebwq1LPmTWU/giphy.gif"/>
+
+<p>❤️ love kittens ❤️</p>
+
+<script type="text/javascript">
+history.replaceState('',{},'/hide-source')
+
+var h1 = document.querySelector('h1')
+function render(t){
+  requestAnimationFrame(render)
+  h1.style.color = 'hsl('+~~(t/5)+', 50%, 50%)'
+}
+render(0)
+
+</script>
+
+</body>
